@@ -34,7 +34,7 @@ def merge(left, right, compare):
     return result
 list_of_numbers = merge_sort(numbers)
 
-print(f'''Списаок чисел, отсортированный по возрастанию: {list_of_numbers}''')
+print(f'''Список чисел, отсортированный по возрастанию:''', *(list_of_numbers))
 
 additional_number = int(input('Введите еще одно число: '))
 
